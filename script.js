@@ -43,11 +43,11 @@ function validate() {
 
     let remark = '';
     if (compatibilityPercentage >= 80) {
-        remark = 'You are meant for each other!';
+        remark = 'Tolerable I Guess';
     } else if (compatibilityPercentage >= 60) {
-        remark = 'You could be good friends.';
+        remark = 'Ill Allow it';
     } else {
-        remark = 'Maybe it\'s best to run away...';
+        remark = 'You are my least favorite person....';
     }
     document.getElementById('results').innerHTML += `<p>${remark}</p>`;
 }
