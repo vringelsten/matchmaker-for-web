@@ -60,7 +60,7 @@ document.getElementById('resetButton').addEventListener('click', function() {
 function resetForm() {
     const questions = ['question1', 'question2', 'question3', 'question4', 'question5'];
     for (const question of questions) {
-        document.getElementById(question).value = '3'; // Set default value to Neutral
+        document.getElementById(question).value = '3'; 
     }
 }
 
